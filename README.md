@@ -6,19 +6,11 @@ Authors:
 - Thejaswin Kumaran
 - Vindhya Kaushal
 
-# Project Description
+## Project Description
 
 BlockVote is a blockchain-based voting application built using Solidity, MetaMask, Remix IDE, and Ethereum Sepolia Testnet. The system allows an admin to register voters and create elections, while registered users can securely cast votes through their MetaMask wallets.
 
 The project uses smart contracts to ensure transparency, security, and fairness throughout the voting process. All voting transactions are stored on the blockchain, preventing tampering, duplicate voting, and unauthorized access.
-
-# BlockVote — Blockchain Voting System
-
-## Project Description
-
-BlockVote is a blockchain-based voting application built using Solidity, MetaMask, Remix IDE, and the Ethereum Sepolia Testnet. The system allows an admin to register voters and create elections, while registered users can securely cast votes through their MetaMask wallets.
-
-The project uses smart contracts to ensure transparency, security, and fairness throughout the voting process. All voting transactions are stored on-chain, preventing tampering, duplicate voting, and unauthorized access.
 
 ## Technologies Used
 
@@ -29,8 +21,6 @@ The project uses smart contracts to ensure transparency, security, and fairness 
 - HTML
 - CSS
 - JavaScript
-
----
 
 # Setup Instructions
 
@@ -44,8 +34,6 @@ Before running the project, make sure you have:
   - Account 2 & 3 → Voters
 - Sepolia testnet ETH in Account 1 for gas fees
 - Remix IDE open at https://remix.ethereum.org
-
----
 
 ## Smart Contract Setup
 
@@ -88,7 +76,6 @@ Click `Deploy` and confirm the transaction in MetaMask.
 
 After deployment, copy the deployed contract address shown under **Deployed Contracts**.
 
----
 
 ## Frontend Setup
 
@@ -108,8 +95,6 @@ Replace the placeholder address with the deployed smart contract address copied 
 
 Save the file.
 
----
-
 # Execution Instructions
 
 ## 1. Connect MetaMask
@@ -122,8 +107,6 @@ Click `Connect MetaMask`.
 
 The application should display the connected wallet address.
 
----
-
 ## 2. Register Voters
 
 Using Account 1:
@@ -135,8 +118,6 @@ Using Account 1:
 
 Repeat the same process for Account 3.
 
----
-
 ## 3. Create an Election
 
 Fill in:
@@ -145,8 +126,6 @@ Fill in:
 - Candidate 2
 
 Click `Create Election` and confirm the transaction in MetaMask.
-
----
 
 ## 4. Cast Votes
 
@@ -157,8 +136,6 @@ Click `Create Election` and confirm the transaction in MetaMask.
 - Click `Cast Vote`
 - Confirm the transaction
 
----
-
 ## 5. Close the Election
 
 - Switch back to Account 1
@@ -167,8 +144,6 @@ Click `Create Election` and confirm the transaction in MetaMask.
 - Confirm the transaction
 
 The election status will update to closed and the winner will be displayed.
-
----
 
 # Testing & Expected Behavior
 
